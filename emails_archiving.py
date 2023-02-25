@@ -115,7 +115,6 @@ def create_darwin_document(sub_node_id, name, msg_path):
         exceptions+=1
 
 
-# main emails loop
 def process_emails():
     for account in outlook_dict:
         print(f"Outlook account: {account}")
